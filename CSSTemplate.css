@@ -1,0 +1,355 @@
+/*The following CSS has been sorted by element sorting.*/
+
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+/*SECTIONING AND STRUCTURE*/
+
+body{
+    font-family:  'Merriweather', sans-serif;
+    font-size: 90%;
+    color: black;
+    font-style: bold;
+    border-top: 1px solid rgb(150,46,46);
+    background-color: #ffd261;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+/*LISTS*/
+li {
+                list-style-image: url("images/icon-plus.png");
+                line-height: 1.6em;}
+
+
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+                }
+
+            ul li {
+                display: inline;
+                padding: 10px;
+                float: right;
+            }
+
+            ul li a, 
+            ul a :hover, 
+            ul li a:focus, 
+            ul li a:active {
+            border: none;
+            text-decoration: none;
+            color: inherit;
+            }
+
+/*MEDIA*/
+iframe{
+    display: block;
+    margin: auto;
+}
+
+/*FORMS*/
+fieldset {
+                width: 310px;
+                margin-top: 20px;
+                border: 1px solid #d6d6d6;
+                background-color: #ffffff;
+                line-height: 1.6em;
+                text-align: center;
+                margin: auto;}
+            legend {
+                font-style: italic;
+                color: #666666;}
+            input[type="text"] {
+                width: 120px;
+                border: 1px solid #d6d6d6;
+                padding: 2px;
+                outline: none;}
+            input[type="text"]:focus,
+            input[type="text"]:hover {
+                background-color: #d0e2f0;
+                border: 1px solid #999999;}
+            input[type="submit"] {
+                border: 1px solid #006633;
+                background-color: #009966;
+                color: #ffffff;
+                border-radius: 5px;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            input[type="submit"]:hover {
+                border: 1px solid #006633;
+                background-color: #00CC33;
+                color: #ffffff;
+                cursor: pointer;}
+
+/*TABLES*/
+
+table {
+                border-spacing: 0px;}
+            th, td {
+                padding: 5px 30px 5px 10px;
+                border-spacing: 0px;
+                font-size: 90%;
+                margin: 0px;}
+            th, td {
+                text-align: left;
+                background-color: #f3e0af;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;}
+            tr.head th {
+                color: #fff;
+                background-color: #daa520;
+                border-bottom: 2px solid black;
+                border-right: 1px solid black;
+                border-top: 1px solid black;
+                text-align: center;
+                text-shadow: 1px 1px 1px #666666;
+                letter-spacing: 0.15em;}
+            td {
+                text-shadow: 1px 1px 1px #ffffff;}
+            tr.even td, tr.even th {
+                background-color: #eccd7e;}
+            tr.head th:first-child {
+                -webkit-border-top-left-radius: 5px;
+                -moz-border-radius-topleft: 5px;
+                border-top-left-radius: 5px;}
+            tr.head th:last-child {
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topright: 5px;
+                border-top-right-radius: 5px;}
+
+/*MISCALLAENOUS ELEMENTS*/
+.title {
+                float: left;
+                width: 160px;
+                clear: left;}
+            .submit {
+                width: 310px;
+                text-align: right;
+                margin:auto;}
+            
+            #page {
+                max-width: 940px;
+                min-width: 720px;
+                margin: 10px auto 10px auto;
+                
+                border: 4px  #000;
+                background-color: #ffffff;
+                vertical-align: baseline;
+            }
+            .center-mid-1{
+                width: 940px;
+                background-color: #e0e9f0;
+                padding-bottom: 15px;
+                padding-top: 5px;
+                }
+
+            .center-mid-2{
+                width: 940px;
+                background-color: #b1861b;
+                padding-bottom: 15px;
+                padding-top: 5px;
+                }
+
+            .center-mid-3{
+                width: 940px;
+                background-color: #b1861b;
+                padding-bottom: 15px;
+                padding-top: 5px;
+                }
+
+            .center-2{
+                width: 940px;
+                margin: auto;
+                padding-bottom: 15px;
+                padding-top: 5px;
+                }
+            
+            .center-3{
+                width: 300px;
+                margin: 0 0;
+                }
+
+            legend.center-3{
+                padding-top: 50px;
+            }
+
+
+            .img-1{
+                margin: auto;
+                width: 100%;
+            }
+            .img-2{
+                padding-left: 10px;
+                margin: auto;
+                width: 30%;
+            }
+            .center-text {
+                text-align: center;
+            }
+            .center-2>h1, .center-2>p{
+                text-align: center;
+            }
+            
+
+            h1.center-text
+            {
+                font-family: 'Merriweather', serif;
+                font-size: 550%;
+            }
+            
+            h1.smaller-heading{
+                color:white;
+            }
+
+            .center-2 p{
+                color:white;
+                padding: 20px;
+            }
+            
+            
+            .menu-holder {
+            float: right;
+            max-width: 80%;
+            position: fixed;
+            text-align: center;
+            height: 100%;
+            background-color: #ffffff;
+            right: -100%;
+            top: 0;
+            transition: right .3s ease;
+            width: 100%;
+            overflow: auto;
+            max-width: 100%;
+            z-index: 99;
+             }
+
+
+            .book-reviews p{
+                position:relative;
+                margin-left: 10px;
+                top: -150px;
+                left: 200px;
+                width: 600px;
+
+            }
+
+            .book-reviews h2,h3, img{
+                margin-left: 5px;
+            }
+
+
+
+
+
+/* ------------------------------------------------------
+  Stylesheet Guide
+  ------------------------------------------------------
+
+    1. Global
+        1.1. Fonts
+            1.1.1. Header font - XXX
+            1.1.2. Text font - XXX
+        1.2. General styles
+        1.3. Color scheme
+            1.3.1. Blue (#4aa8fa) - Color scheme
+            1.3.2. Pink (#fa5a88) - Color scheme
+            1.3.3. Green (#2ddf7b) - Color scheme
+        1.4. Typography
+        1.5. Custom class
+        1.6. Icons class
+    2. Header
+        2.1. Structure, logo
+        2.2. Header text
+    3. Sections
+        3.1 Section header
+        3.2. Main Index section
+            3.2.1. Center-mid-1 
+            3.2.2. Center-mid-2 
+        3.3. Hobbies section
+            3.3.1. Hobbies content
+            3.3.2. Hobbies timeline
+        3.4. Courses section
+            3.4.1. Schedule section
+            3.4.2. Skills 
+        3.5. Contacts section
+            3.5.1. Contact details
+            3.5.2. Contact form
+    4. Footer
+    5. Media queries
+
+------------------------------------------------------ */
+
+/* ------------------------------------------------------
+    1. Global
+------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.1. Fonts
+    ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.1.1. Header font - Open Sans
+        ------------------------------------------------------ */
+			
+			/* https://css-tricks.com/snippets/css/using-font-face/ */
+			@font-face {
+			              font-family: "Open Sans";
+			              font-weight: normal;
+			              font-style: normal;
+			              src: url("../fonts/Open-Sans/OpenSans-Regular.eot");
+			              src: url("../fonts/Open-Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Open-Sans/OpenSans-Regular.woff") format("woff"), url("../fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+			            }
+
+
+		/* ------------------------------------------------------
+            1.1.2. Text font - XXX
+        ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.2. General styles
+    ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.3. Color scheme
+    ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.1. Blue (#4aa8fa) - Color scheme
+        ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.2. Pink (#fa5a88) - Color scheme
+        ------------------------------------------------------ */
+
+        /* ------------------------------------------------------
+            1.3.2. Green (#) - Color scheme
+        ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.4. Typography
+    ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.5. Custom Class
+    ------------------------------------------------------ */
+
+    /* ------------------------------------------------------
+        1.6. Icons Class
+    ------------------------------------------------------ */
+
+/* ------------------------------------------------------
+    2. Header
+------------------------------------------------------ */
+
